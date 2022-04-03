@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
 }
+/* dდაიწყო ჰედერი */
 header {
     width: 93%;
     display: flex;
@@ -44,6 +45,8 @@ li:hover {
     background-color: #4468E2;
     border: none;
 }
+/* დასრულდა ჰედერი  */
+/* დაიწყო ბაქგრაუნდ ფოტოს სექცია */
 .Travel_To_explore_beach {
     width: 93%;
     position: relative;
@@ -132,4 +135,98 @@ li:hover {
     background-color: #4468E2;
     border: none;
     border-radius: 12px;
+}
+/* დამთავრდა ბექგრაუნდ ფოტოს სექცია */
+/* დაიწყო Recommended_Destination-ს სექცია */
+.Recommended_Destination {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 178px;
+}
+.Recommended_Destination_h1 {
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 79px;
+}
+.Recommended_Destination_text_list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 64px;
+}
+.Recommended_Destination_text_list p {
+    font-size: 26px;
+    color: #163235;
+    padding-right: 110px;
+}
+.Recommended_Destination_text_list p:hover {
+    border-bottom: 3px solid #163235;
+}
+.Recommended_Destination_text_list p:active {
+    border-bottom: 3px solid #163235;
+}
+.Recommended_Destination_image_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+.Singapore{
+    width: 30%;
+}
+.Thailand {
+    width: 30%;
+}
+.Paris {
+    width: 30%;
+}
+.New_Zealand {
+    width: 30%;
+}
+.Bora_Bora {
+    width: 30%;
+}
+.London {
+    width: 30%;
+}
+.p1 {
+    width: 100%;
+    font-size: 38px;
+    color: #163235;
+    margin-top: 11px;
+    margin-bottom: 14px;
+}
+.p2 {
+    width: 100%;
+    font-size: 26px;
+    color: #163235;
+    margin-bottom: 13px;
+    height: 66px;
+}
+.icone_p {
+    font-size: 31px;
+    color: #163235;
+}
+.big_img {
+    width: 100%;
+}
+.Recommended_Destination_image_list_icone {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+.little {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.little p {
+    font-size: 22px;
+    color: #163235;
 }
