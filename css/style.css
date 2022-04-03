@@ -60,6 +60,7 @@ li:hover {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
+    line-height: 33px; 
 }
 .Travel_To_explore_text_h1 {
     width: 63%;
