@@ -354,3 +354,39 @@ li:hover {
 }
 /* დამთავრდა blogs-ს სექცია  */
 /* დაიწყო Happy Customers სექცია */
+.Happy_Customers_h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+.Happy_Customers {
+    display: flex;
+    justify-content: space-around;
+    width: 93%;
+    margin: 0 auto;
+    margin-bottom: 191px;
+
+}
+.top_div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    font-size: 26px;
+}
+.top_div_text {
+    text-align: justify;
+    margin-left: 20px;
+}
+.bottom_div {
+    display: flex;
+    justify-content: space-around;
+}
+.bottom_div_p1{
+    font-size: 28px;
+}
+.bottom_div_p2 {
+    font-size: 28px;
+    color: #848484;
+}
+/* დამთავრდა Happy Customers სექცია */
+/* დაიწყო ფუტერი */
