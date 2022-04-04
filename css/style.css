@@ -287,53 +287,70 @@ li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 172px;
 }
 .Blogs_left {
     width: 54%;
     display: flex;
-}
-.Blogs_right {
-    width: 46%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-} 
+    justify-content: center;
+
+}
 .Blogs_left img {
     position: relative;
     width: 100%;
 }
-.plane_wiev_img {
-    width: 100%;
-    position: relative;
-}
-.Female_Travelers_img {
-    width: 100%;
-    position: relative;
-}
-
-/* .Blogs_left_p {
-    width: 20%;
+.Blogs_left_p {
     position: absolute;
     font-size: 50px;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-} */
-
-/* .plane_wiev {
+    align-content: center;
+}
+.Blogs_right {
+    width: 46%;
     display: flex;
+    flex-direction: column;
+} 
+.plane_wiev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plane_wiev_img {
+    width: 100%;
+    position: relative;
+}
+.plane_wiev_p {
+    position: absolute;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: #FFFFFF;
 
-} */
-/* .plane_wiev_p {
+}
+.Female_Travelers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Female_Travelers_img {
+    width: 100%;
+    position: relative;
+}
+.Female_Travelers_p {
     position: absolute;
     font-size: 35px;
-    width: 20%; 
-} */
-/* .Female_Travelers_p {
-    position: absolute;
-    font-size: 35px;
-    width: 20%;
-} */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: #FFFFFF;
+
+}
+/* დამთავრდა blogs-ს სექცია  */
+/* დაიწყო Happy Customers სექცია */
