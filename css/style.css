@@ -164,6 +164,13 @@ li:hover {
 }
 /* დამთავრდა recommendations-ს სექცია */
 /* დაიწყო Recommended_Destination-ს სექცია */
+.Recommended_Destination_h1 {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 78px;
+    margin-top: 236px;
+}
 .Recommended_Destination {
     width: 93%;
     margin-left: auto;
@@ -173,11 +180,6 @@ li:hover {
     justify-content: center;
     align-items: center;
     margin-top: 178px;
-}
-.Recommended_Destination_h1 {
-    font-size: 40px;
-    color: #000000;
-    margin-bottom: 79px;
 }
 .Recommended_Destination_text_list {
     display: flex;
