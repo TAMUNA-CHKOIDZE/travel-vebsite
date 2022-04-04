@@ -57,7 +57,6 @@ li:hover {
     margin-top: 71px;
 }
 .Travel_To_explore_text {
-    width: 45%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -67,8 +66,8 @@ li:hover {
     line-height: 33px; 
 }
 .Travel_To_explore_text_h1 {
-    width: 63%;
     color: #FFFFFF;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,53 +75,28 @@ li:hover {
     margin-bottom: 13px;
 }
 .Travel_To_explore_text_h3 {
-    width: 63%;
     color: #FFFFFF;
+    font-size: 22px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     margin-bottom: 39px;
 }
-.Travel_To_explore_text h1 {
-    font-size: 50px;
-    padding-bottom: 13px;
-}
-.Travel_To_explore_text h3 {
-    font-size: 22px;
-} 
 .Travel_To_explore_white_box {
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
+    width: 876px;
     height: 89px;
     border-radius: 10px;
-}
-.white_box_div1 {
-    width: 24%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
 }
 .white_box_div1_search {
     display: flex;
 }
-.white_box_div2 {
-    width: 24%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-.white_box_div3 {
-    width: 24%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+.white_box_div1_search img {
+    margin-right: 10px;
 }
 .first_line {
     font-size: 20px;
@@ -133,7 +107,7 @@ li:hover {
     color: #7E7E7E;
 }
 .Explore_Now {
-    width: 24%;
+    width: 187px;
     height: 63px;
     font-size: 21px;
     color: #FFFFFF;
@@ -270,6 +244,7 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 13px;
     margin-bottom: 9px;
 }
 .little {
@@ -426,3 +401,15 @@ ol li {
     align-items: center; */
     padding-left: 27px;
 }
+/* footer დასრულდა */
+/* @media (max-width: 1024px) {
+    .container {
+        width: 1024px;
+    }   
+    header {
+        width: 93%;
+    }
+    .Travel_To_explore_beach {
+        width: 952px;
+    }
+} */
