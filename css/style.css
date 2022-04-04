@@ -9,6 +9,8 @@
 /* dდაიწყო ჰედერი */
 header {
     width: 93%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,6 +52,8 @@ li:hover {
 .Travel_To_explore_beach {
     width: 93%;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 71px;
 }
 .Travel_To_explore_text {
@@ -145,9 +149,11 @@ li:hover {
     align-items: center;
     justify-content: space-between;
     align-content: center;
-    margin-top: 178px;
     flex-wrap: wrap;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 178px;
+    /* margin-left: 5%; */
 }
 .Get_Best_Prices {
     width: 17%;
@@ -184,6 +190,8 @@ li:hover {
 /* დაიწყო Recommended_Destination-ს სექცია */
 .Recommended_Destination {
     width: 93%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,6 +292,7 @@ li:hover {
 }
 .Blogs {
     width: 93%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -390,3 +399,30 @@ li:hover {
 }
 /* დამთავრდა Happy Customers სექცია */
 /* დაიწყო ფუტერი */
+footer {
+    width: 93%;
+    height: 178px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E1E8F8;
+    border-radius: 18px;
+}
+footer p {
+    font-size: 24px;
+}
+footer nav ol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ol li {
+    font-size: 24px;
+}
+.footer_icone img {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    padding-left: 27px;
+}
